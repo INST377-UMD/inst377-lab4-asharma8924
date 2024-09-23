@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="4.css">
+    <script defer src="4.js"></script>
+</head>
+<body>
+    <h1 id="heading">INST 377 LAB 4 </h1>
+
+    <div class="class">
+        <form onsubmit="event.preventDefault(); showtheAlert();">
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name">
+            <button type="Submit">Alert Me!</button>
+        </form>
+    </div>
+
+    <div class="class">
+        <button onclick = "colorChange()">Change Color</button>
+    </div>
+
+    <div class="class">
+        <form onsubmit="event.preventDefault(); validateText();">
+            <label for="Tester">Text Tester:</label>
+            <input type="text" id="Tester" name="Tester">
+            <button type="Submit">Validate Text</button>
+        </form>
+    </div>
+
+    <div class="class">
+        <button onclick="addingText()">Add Text</button>
+    </div>
+</body>
+</html>
